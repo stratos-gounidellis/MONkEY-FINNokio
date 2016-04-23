@@ -54,7 +54,15 @@
             <ion-header-bar class="bar-stable">
                 <div class="title">Menu</div>
             </ion-header-bar>
-            <ion-content padding="false" class="side-menu-left has-header"></ion-content>
+            <ion-content padding="false" class="side-menu-left has-header">
+                <ion-list data-componentid="list3">
+                    <ion-item ui-sref="account" menu-close="" data-componentid="list-item1">Account</ion-item>
+                    <ion-item ui-sref="goals" menu-close="" data-componentid="list-item2">Goals</ion-item>
+                    <ion-item ui-sref="expenses" menu-close="" data-componentid="list-item3">Expenses</ion-item>
+                    <ion-item ui-sref="stats" menu-close="" data-componentid="list-item4">Stats</ion-item>
+                    <ion-item ui-sref="challenges" menu-close="" data-componentid="list-item5">Challenges</ion-item>
+                </ion-list>
+            </ion-content>
         </ion-side-menu>
     </ion-side-menus>
 </div>

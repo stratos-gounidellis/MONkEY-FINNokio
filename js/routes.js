@@ -64,6 +64,36 @@ angular.module('app.routes', [])
     controller: 'goalsCtrl'
   })
 
+  .state('login', {
+    url: '/page8',
+    templateUrl: 'templates/login.html',
+    controller: 'loginCtrl'
+  })
+
+  .state('signup', {
+    url: '/page9',
+    templateUrl: 'templates/signup.html',
+    controller: 'signupCtrl'
+  })
+
+  .state('account', {
+    url: '/page10',
+    templateUrl: 'templates/account.html',
+    controller: 'accountCtrl'
+  })
+
+  .state('expenses', {
+    url: '/page11',
+    templateUrl: 'templates/expenses.html',
+    controller: 'expensesCtrl'
+  })
+
+  .state('stats', {
+    url: '/page12',
+    templateUrl: 'templates/stats.html',
+    controller: 'statsCtrl'
+  })
+
 $urlRouterProvider.otherwise('/page1/page2')
 
   
