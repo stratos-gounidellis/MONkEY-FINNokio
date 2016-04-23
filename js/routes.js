@@ -94,7 +94,7 @@ angular.module('app.routes', [])
     controller: 'statsCtrl'
   })
 
-$urlRouterProvider.otherwise('/page1/page2')
+
 
   
 
